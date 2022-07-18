@@ -1,0 +1,96 @@
+            /* ******************* Custom Properties************** */
+            
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: content-box;
+            }
+            
+            html {
+                box-sizing: border-box;
+                font-family: var(--font);
+                font-size: 25px;
+                scroll-behavior: smooth;
+            }
+            
+            *::after,
+            *::before {
+                box-sizing: inherit;
+            }
+            
+            #logo {
+                width: 20px;
+                padding-right: 50;
+                padding: 10px;
+                float: left;
+                width: 500px;
+            }
+            
+            img {
+                float: left;
+                margin-block-end: 800px;
+                margin-left: 40px;
+                /* ****inline-size: 10px;**** */
+            }
+            
+            .inicio {
+                background-color: blue;
+                padding-inline-start: 100%;
+                border-block-start: 10%;
+                margin-top: 20px;
+            }
+            
+            #redes {
+                margin: right;
+                margin-block-start: 40px;
+                margin-top: 120px;
+            }
+            
+            #menu {
+                background-color: #0dc143;
+                height: 100px;
+            }
+            
+            img {
+                max-width: 20%;
+                max-height: 20%;
+            }
+            
+            .cat {
+                block-size: 300;
+                width: 200;
+            }
+            /*.foto1 {
+                padding: 30px;
+                margin: 10px;
+                border: 2px solid black;
+                float: left;
+                inline-size: 500px;
+            }
+            /* .foto1 {
+                padding: 10px;
+                margin: 10px;
+                border: 2px solid black;
+                float: left;
+                width: 250px;
+            } /*
+            
+            .alt {
+                float: left;
+            }
+            /*-- div img {
+                margin-top: 300em;
+                margin-bottom: 20em;
+                margin-left: 10em;
+                margin-right: 300em;
+            }*/
+            
+            .foto1 {
+                padding: 10px;
+                margin-left: 2px;
+                margin-top: 30px;
+                margin-left: 2px;
+                border: 2px solid black;
+                float: left;
+                width: 100px;
+            }
